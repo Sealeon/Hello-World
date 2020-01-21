@@ -1,3 +1,8 @@
+# Says Hello, World after some coercing.
+# Hello World++
+# Emily Knight
+# 21/01/2020
+
 from tkinter import *
 from tkinter import messagebox
 
@@ -7,7 +12,7 @@ def message():
     global patience
     if patience != 0:
         patience -= 1
-        messagebox.showwarning("This is", "Hello world!")
+        messagebox.showwarning("This is", "Hello, world!")
     else:
         messagebox.showerror("You know what?", "Forget about it,\nI'm leaving!")
         root.destroy()
